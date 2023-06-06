@@ -1,8 +1,9 @@
 import { React, useState, useEffect } from 'react';
 import './App.css';
 import { Route, Link, Switch } from 'react-router-dom';
-import Campsites from '../Campsites/Campsites';
 import Header from '../Header/Header';
+import Campsites from '../Campsites/Campsites';
+import CampsiteDetails from '../CampsiteDetails/CampsiteDetails';
 import { getCampsites } from '../../ApiCalls';
 
 function App() {
@@ -26,6 +27,9 @@ function App() {
   return (
     <div className="app">
       <Header />
+      <Route exact path = "/campsite/:id">
+        <CampsiteDetails campsites={campsites}/>
+      </Route>
       <Route exact path = "/">
         <Campsites campsites={campsites}/>
       </Route>
