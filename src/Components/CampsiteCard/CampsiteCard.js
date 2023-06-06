@@ -5,11 +5,8 @@ import { Link } from 'react-router-dom';
 function CampsiteCard({ campsite }) {
   return (
     <div className="campsite-card">
-      <h1>{campsite.fullName}</h1>
-      <p>Description: {campsite.description}</p>
-      <ul>
-        {campsite.activities.map(activity => <li key={activity.id}>{activity.name}</li>)}
-      </ul>
+      <img className="campsite-img" src={campsite.images[0].url}/>
+      <h3 className="campsite-name">{campsite.fullName}</h3>
     </div>
   );
 }

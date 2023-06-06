@@ -1,0 +1,8 @@
+.activities-section {
+  text-align: left;
+}
+
+.campsite-activities {
+  overflow: auto;
+  max-height: 150px;
+}
