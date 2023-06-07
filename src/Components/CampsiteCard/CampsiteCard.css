@@ -9,6 +9,7 @@
   color: black;
   text-align: center;
   background-color: #eeeacc;
+  position: relative;
 }
 
 .campsite-img {
@@ -29,4 +30,16 @@
 
 .rv-info {
   text-align: left;
+}
+
+.favorite-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 25px;
+  color: #dcded5;
+  cursor: pointer;
+  border: 1.5px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  background-color:#446148;
 }

@@ -9,6 +9,7 @@ import { getCampsites } from '../../ApiCalls';
 function App() {
   const [campsites, setCampsites] = useState([])
   const [error, setError] = useState('')
+  const [favorites, setFavorites] = useState([])
 
   useEffect(() => {
     const fetchData = async () => {
@@ -29,6 +30,9 @@ function App() {
     fetchData();
   }, []);
 
+  const favoriteCampsite = () => {
+    setFavorites(campsites.filter(campsite => campsite.favorited === true))
+  }
 
   return (
     <div className="app">
@@ -37,7 +41,7 @@ function App() {
         <CampsiteDetails campsites={campsites}/>
       </Route>
       <Route exact path = "/">
-        <Campsites campsites={campsites}/>
+        <Campsites campsites={campsites} favoriteCampsite={favoriteCampsite}/>
       </Route>
     </div>
   );
