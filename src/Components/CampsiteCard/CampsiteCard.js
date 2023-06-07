@@ -1,6 +1,5 @@
 import React from 'react';
 import './CampsiteCard.css';
-import { Link } from 'react-router-dom';
 
 function CampsiteCard({ campsite, favoriteCampsite }) {
   let imageSrc

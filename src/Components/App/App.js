@@ -21,7 +21,6 @@ function App() {
           }
         })
         setCampsites(filteredData);
-        console.log(filteredData)
       } catch (error) {
         setError(error);
       }
