@@ -1,3 +1,10 @@
+.campsite-details {
+  display: flex;
+  flex-direction: column;
+  padding: 3%;
+  padding-top: 0px;
+}
+
 .activities-section {
   text-align: left;
 }
@@ -5,4 +12,16 @@
 .campsite-activities {
   overflow: auto;
   max-height: 150px;
+}
+
+.image {
+  height: 200px;
+}
+
+.image:hover {
+  transform: scale(1.5);
+}
+
+.rv-info {
+  width: 40%;
 }

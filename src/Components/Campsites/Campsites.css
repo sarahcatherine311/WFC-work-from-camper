@@ -1,10 +1,9 @@
 .campsites-section {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 400px;
-  grid-column-gap: 5%;
+  grid-column-gap: 1%;
   grid-row-gap: 0.5%;
   margin-left: 3%;
-  margin-right: 5%;
+  margin-right: 3%;
   margin-top: 2%;
 }
