@@ -16,12 +16,12 @@
 .rv-and-amenities {
   display: flex;
   justify-content: space-evenly;
-  margin: 5%;
+  margin: 7%;
   margin-top: 1%;
 }
 
 .rv-info, .amenities-info {
-  width: 40%;
+  width: 35%;
   background-color: antiquewhite;
   border-radius: 10px;
   padding: 3%;
@@ -33,8 +33,12 @@
 }
 
 .amenities {
-  overflow: auto; 
-  max-height: 250px;
+  overflow: scroll; 
+  max-height: 15em;
+}
+
+.amenities:hover {
+  cursor: all-scroll;
 }
 
 button {
@@ -44,4 +48,30 @@ button {
 
 button:hover {
   cursor: pointer;
+}
+
+.description {
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 0;
+}
+
+@media screen and (max-width: 34.375em) {
+  .amenities {
+    overflow: scroll;
+    max-height: 25em;
+  }
+
+  .rv-and-amenities {
+    font-size: small;
+  }
+
+  .campsite-name {
+    font-size: x-large;
+  }
+
+  .description {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
 }
