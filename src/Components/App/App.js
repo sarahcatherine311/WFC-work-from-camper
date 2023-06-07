@@ -37,10 +37,19 @@ function App() {
   return (
     <div className="app">
       <Header />
+      <Route exact path = "/favorites">
+      <Link to="/">
+        <button>See All Campsites</button>
+      </Link>
+        <Campsites campsites={favorites} favoriteCampsite={favoriteCampsite}/>
+      </Route>
       <Route exact path = "/campsite/:id">
         <CampsiteDetails campsites={campsites}/>
       </Route>
       <Route exact path = "/">
+      <Link to="/favorites">
+        <button>See Favorite Campsites</button>
+      </Link>
         <Campsites campsites={campsites} favoriteCampsite={favoriteCampsite}/>
       </Route>
     </div>

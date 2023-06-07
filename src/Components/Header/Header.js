@@ -9,9 +9,6 @@ function Header() {
         <img className="logo"/>
         <h1>Work From Camper</h1>
       </Link>
-      <Link to="/favorites">
-        <button>See Favorite Campsites</button>
-      </Link>
     </header>
   );
 }
