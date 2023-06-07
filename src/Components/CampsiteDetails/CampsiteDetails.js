@@ -13,12 +13,12 @@ function CampsiteDetails({ campsites }) {
 
   return (
     <div className="campsite-details">
-      <h1>{campsite.name}</h1>
-      <p>{campsite.description}</p>
+      <h1 className='campsite-name'>{campsite.name}</h1>
+      <p className="description">{campsite.description}</p>
       <section className="photos-section">
         <PhotoGallery photos={campsite.images}/>
       </section>
-      {campsite.accessibility.additionalInfo && <p><strong>Additional Information: </strong>{campsite.accessibility.additionalInfo}</p>}
+      {campsite.accessibility.additionalInfo && <p className="description"><strong>Additional Information: </strong>{campsite.accessibility.additionalInfo}</p>}
       <div className='rv-and-amenities'>
         <section className="rv-info">
           <h2>RV and Trailer Information:</h2>

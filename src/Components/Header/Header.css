@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 10em;
+  height: 9em;
   background-color:rgb(31, 72, 28);
   color: white;
 }
@@ -10,4 +10,10 @@
 a {
   color: white;
   text-decoration: none;
+}
+
+@media screen and (max-width: 34.375em) {
+  .header {
+    height: 6em;
+  }
 }
