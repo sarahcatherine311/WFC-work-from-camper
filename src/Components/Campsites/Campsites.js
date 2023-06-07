@@ -3,17 +3,16 @@ import './Campsites.css';
 import { Link } from 'react-router-dom';
 import CampsiteCard from '../CampsiteCard/CampsiteCard';
 
-function Campsites({ campsites }) {
-  console.log(campsites)
+function Campsites({ campsites, favoriteCampsite }) {
   return (
     <div className="campsites-section">
       {campsites.map(campsite => (
         <Link key={campsite.id} to={`/campsite/${campsite.id}`} style={{ textDecoration: 'none' }} > 
-          <CampsiteCard campsite={campsite}/>
+          <CampsiteCard campsite={campsite} favoriteCampsite={favoriteCampsite}/>
         </Link>
-      ))}
+      ))};
     </div>
-  );
-}
+  );;
+};
 
 export default Campsites;

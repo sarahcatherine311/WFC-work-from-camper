@@ -22,6 +22,6 @@ const PhotoGallery = ({ photos }) => {
       </div>
     </div>
   );
-}
+};
 
 export default PhotoGallery;
