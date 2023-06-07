@@ -10,6 +10,7 @@ function App() {
   const [campsites, setCampsites] = useState([])
   const [error, setError] = useState('')
   const [favorites, setFavorites] = useState([])
+  const [loading, setLoading] = useState(true)
 
   useEffect(() => {
     const fetchData = async () => {
@@ -21,6 +22,7 @@ function App() {
           }
         })
         setCampsites(filteredData);
+        setLoading(false)
       } catch (error) {
         setError(error);
       }
@@ -33,26 +35,45 @@ function App() {
     setFavorites(campsites.filter(campsite => campsite.favorited === true))
   }
 
-  return (
-    <div className="app">
-      <Header />
-      <Route exact path = "/favorites">
-      <Link to="/">
-        <button>See All Campsites</button>
-      </Link>
-        <Campsites campsites={favorites} favoriteCampsite={favoriteCampsite}/>
-      </Route>
-      <Route exact path = "/campsite/:id">
-        <CampsiteDetails campsites={campsites}/>
-      </Route>
-      <Route exact path = "/">
-      <Link to="/favorites">
-        <button>See Favorite Campsites</button>
-      </Link>
-        <Campsites campsites={campsites} favoriteCampsite={favoriteCampsite}/>
-      </Route>
-    </div>
-  );
-}
+  if(error) {
+    return (
+      <div>
+        <Header />
+        <h2 className="error-message">{error.message}</h2>
+      </div>
+    )
+  } else if(loading) {
+    return (
+      <div>
+        <Header />
+        <h2 className="loading-message">Loading... </h2>
+      </div>
+      )
+  } else {
+    return (
+      <div className="app">
+        <Header />
+        <Switch>
+          <Route exact path = "/favorites">
+          <Link to="/">
+            <button>See All Campsites</button>
+          </Link>
+            <Campsites campsites={favorites} favoriteCampsite={favoriteCampsite}/>
+          </Route>
+          <Route exact path = "/campsite/:id">
+            <CampsiteDetails campsites={campsites}/>
+          </Route>
+          <Route exact path = "/">
+          <Link to="/favorites">
+            <button>See Favorite Campsites</button>
+          </Link>
+            <Campsites campsites={campsites} favoriteCampsite={favoriteCampsite}/>
+          </Route>
+          <Route path="*" render={() => <h2 className="error-message">Sorry, you went down the wrong path!</h2>}/>
+        </Switch>
+      </div>
+    );
+  };
+};
 
 export default App;

@@ -17,8 +17,8 @@ const PhotoGallery = ({ photos }) => {
     <div className="photo-gallery">
       <img className="details-photo" src={photos[photoIndex].url} alt={photos[photoIndex].altText} />
       <div className="gallery-navigation">
-        <button onClick={handlePrevPhoto}>Previous</button>
-        <button onClick={handleNextPhoto}>Next</button>
+        {photos.length >= 2 && <button onClick={handlePrevPhoto}>Previous</button>}
+        {photos.length >= 2 && <button onClick={handleNextPhoto}>Next</button>}
       </div>
     </div>
   );
