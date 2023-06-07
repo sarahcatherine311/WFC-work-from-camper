@@ -6,3 +6,8 @@
   background-color:rgb(31, 72, 28);
   color: white;
 }
+
+a {
+  color: white;
+  text-decoration: none;
+}

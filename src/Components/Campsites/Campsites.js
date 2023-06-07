@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import CampsiteCard from '../CampsiteCard/CampsiteCard';
 
 function Campsites({ campsites }) {
+  console.log(campsites)
   return (
     <div className="campsites-section">
       {campsites.map(campsite => (

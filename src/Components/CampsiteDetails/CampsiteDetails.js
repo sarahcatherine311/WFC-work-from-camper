@@ -1,26 +1,32 @@
 import React from 'react';
 import './CampsiteDetails.css';
 import { useParams } from 'react-router-dom';
+import PhotoGallery from '../PhotoGallery/PhotoGallery';
 
 function CampsiteDetails({ campsites }) {
   const { id } = useParams();
-  console.log(id)
   const campsite = campsites.find(campsite => campsite.id === id)
-  console.log(campsite)
+
+  if (!campsite) {
+    return <div className="loading">Loading your campsite details...</div>;
+  }
 
   return (
     <div className="campsite-details">
-      <h1>{campsite.fullName}</h1>
+      <h1>{campsite.name}</h1>
       <p>{campsite.description}</p>
       <section className="photos-section">
-        {campsite.images.map(image => <img className="image" key={image.title} src={image.url} alt={image.altText}/>)}
+        <PhotoGallery photos={campsite.images}/>
       </section>
-      <div className="activities-section">
-       <h2>Activities:</h2>
-       <ul className="campsite-activities">
-          {campsite.activities.map(activity => <li key={activity.id}>{activity.name}</li>)}
-        </ul>
-      </div>
+      {campsite.accessibility.additionalInfo && <p><strong>Additional Information: </strong>{campsite.accessibility.additionalInfo}</p>}
+      <section className="rv-info">
+        <h2>RV and Trailer Information:</h2>
+        {campsite.accessibility.rvAllowed === "1" && <p><strong>RV Allowed:</strong> Yes</p> || <p>RV Allowed: No</p>}
+        {campsite.accessibility.rvMaxLength > 0 && <p><strong>RV Max Length: </strong> {campsite.accessibility.rvMaxLength}ft</p>}
+        {campsite.accessibility.trailerAllowed === "1" && <p><strong>Trailer Allowed: </strong> Yes</p> || <p>Trailer Allowed: No</p>}
+        {campsite.accessibility.trailerMaxLength > 0 && <p><strong>Trailer Max Length: </strong>{campsite.accessibility.trailerMaxLength}ft</p>}
+        {campsite.accessibility.rvInfo !== "N/A" && <p>{campsite.accessibility.rvInfo}</p>}
+      </section>  
     </div>
   );
 }

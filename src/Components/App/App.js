@@ -14,7 +14,13 @@ function App() {
     const fetchData = async () => {
       try {
         const data = await getCampsites();
-        setCampsites(data.data);
+        const filteredData = data.data.filter(campsite => {
+          if(campsite.amenities) {
+            return  campsite.amenities.internetConnectivity.includes("Yes")
+          }
+        })
+        setCampsites(filteredData);
+        console.log(filteredData)
       } catch (error) {
         setError(error);
       }
