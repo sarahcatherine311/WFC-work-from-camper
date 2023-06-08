@@ -1,8 +1,22 @@
 .campsites-section {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-column-gap: 1%;
+  grid-column-gap: 1.5%;
   grid-row-gap: 0.5%;
   margin: 3%;
   margin-top: 0;
+}
+
+@media screen and (max-width: 34.375em) {
+  .campsites-section {
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 2.5%;
+  }
+}
+
+@media screen and (min-width: 34.375em) and (max-width: 60em) {
+  .campsites-section {
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 2%;
+  }
 }
