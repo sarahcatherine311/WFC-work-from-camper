@@ -7,7 +7,9 @@ function CampsiteDetails({ campsites }) {
   const { id } = useParams();
   const campsite = campsites.find(campsite => campsite.id === id)
 
-  if (campsite) {
+  if (!campsite) {
+    return (<h2 className='error-message'>Sorry, we cannot locate this campsite...</h2>)
+  } else {
     return (
       <div className="campsite-details">
         <h1 className='campsite-title'>{campsite.name}</h1>
