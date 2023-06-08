@@ -29,6 +29,7 @@ function App() {
     };
 
     fetchData();
+    console.log(campsites[0])
   }, []);
 
   const favoriteCampsite = () => {
@@ -56,7 +57,7 @@ function App() {
         <Switch>
           <Route exact path = "/favorites">
           <Link to="/">
-            <button>See All Campsites</button>
+            <button className='see-all-button'>See All Campsites</button>
           </Link>
             <Campsites campsites={favorites} favoriteCampsite={favoriteCampsite}/>
           </Route>
@@ -65,7 +66,7 @@ function App() {
           </Route>
           <Route exact path = "/">
           <Link to="/favorites">
-            <button>See Favorite Campsites</button>
+            <button className='see-favorites-button'>See Favorite Campsites</button>
           </Link>
             <Campsites campsites={campsites} favoriteCampsite={favoriteCampsite}/>
           </Route>

@@ -1,0 +1,651 @@
+{
+"data": [
+  {
+    "id": "33AA5642-343E-425B-89E9-69A0918A8502",
+    "url": "https://www.nps.gov/jotr/planyourvisit/black-rock-campground.htm",
+    "name": "Black Rock Campground",
+    "parkCode": "jotr",
+    "description": "This large (99 site) campground is located in the northwest corner of the park. Each campsite has a picnic table and fire ring with rest rooms and water nearby. Shopping facilities are only five miles away in the town of Yucca Valley. Campsites vary in size and can accommodate both tents and RVs. A day-use picnic area and a dump station are also available. For horse owners, a separate area is provided for camping or for staging a ride.",
+    "latitude": "34.07298223672509",
+    "longitude": "-116.39149680312721",
+    "latLong": "{lat:34.07298223672509, lng:-116.39149680312721}",
+    "audioDescription": "The Black Rock Campground is a desert campground nestled among rocky mountains. The campground is made up of several loops with dirt roads and camping spots to accommodate tents and RVs. Each camping spot has a dirt parking area, picnic table, fire pit, and campsite marker. The ground is hard and rocky. Throughout the campground there are many Joshua trees, small trees, and shrubs. Scattered around the campground you can find trash and recycling cans, bathrooms, and several trailheads. In the center of the campground is the Black Rock Nature Center, a yellow one story building with a parking area where people can view exhibits and learn about the park.",
+    "isPassportStampLocation": "0",
+    "passportStampLocationDescription": "",
+    "passportStampImages": [],
+    "geometryPoiId": "17DFA459-30A4-4C75-B156-F6FDE0246385",
+    "reservationInfo": "Reservations are required year-round and can be made up to six months in advance. Book a site at www.recreation.gov or by calling 877-444-6777.",
+    "reservationUrl": "https://www.recreation.gov/camping/campgrounds/232473",
+    "regulationsurl": "https://www.nps.gov/jotr/planyourvisit/camping-regulations.htm",
+    "regulationsOverview": "There are restrictions to equestrian use in Joshua Tree National Park. Before visiting with stock familiarize yourself with the rules and regulations http://www.nps.gov/jotr/planyourvisit/horseback-riding.htm. Also familiarize yourself with camping rules and regulations. The full list can be found at: http://www.nps.gov/jotr/planyourvisit/campgrounds.htm. A partial list is below: A maximum of six people, three tents, and two vehicles may occupy an individual campsite, if there is space. Check in and check out are at noon. There is a 30-day camping limit each year. Only 14 of these nights may take place from October-May. All tents, tarps, and other camping equipment must be set up within 25 feet of the picnic table. Food must be stored securely where wildlife cannot get to it. Campsites left vacant for 24 hours will be treated as vacant. Holding or reserving campsites for persons not present is not allowed. Pets must remain on leash at all times and may not be left unattended.",
+    "amenities": {
+    "trashRecyclingCollection": "Yes - year round",
+    "toilets": [
+    "Flush Toilets - year round"
+    ],
+    "internetConnectivity": "Yes - year round",
+    "showers": [
+    "None"
+    ],
+    "cellPhoneReception": "Yes - year round",
+    "laundry": "No",
+    "amphitheater": "Yes - year round",
+    "dumpStation": "Yes - year round",
+    "campStore": "No",
+    "staffOrVolunteerHostOnsite": "Yes - seasonal",
+    "potableWater": [
+    "Yes - year round"
+    ],
+    "iceAvailableForSale": "No",
+    "firewoodForSale": "No",
+    "foodStorageLockers": "No"
+    },
+    "contacts": {
+    "phoneNumbers": [
+    {
+    "phoneNumber": "760-367-5554",
+    "description": "",
+    "extension": "",
+    "type": "Voice"
+    }
+    ],
+    "emailAddresses": [
+    {
+    "description": "",
+    "emailAddress": "jotr_info@nps.gov"
+    }
+    ]
+    },
+    "fees": [
+    {
+    "cost": "25.00",
+    "description": "Camping fees must be paid within one hour of selecting a campsite. The cost is $20 for tents, RVs, and equestrian sites. A maximum of six people, three tents, and two cars may occupy an individual campsite, only if there is space available. Some sites only have enough parking for one vehicle.",
+    "title": "Campsite"
+    },
+    {
+    "cost": "20.00",
+    "description": "Black Rock Horse Camp is open all year and has 20 sites. Reservations are required. For reservations, call 1-877-444-6777.",
+    "title": "Black Rock Horse Site"
+    },
+    {
+    "cost": "12.50",
+    "description": "Nightly camping fee for one site for a camper with a Senior or Access pass. Camping fees must be paid within one hour of selecting a campsite. A maximum of six people, three tents, and two cars may occupy an individual campsite, only if there is space available. Some sites only have enough parking for one vehicle.",
+    "title": "Senior/Access Pass Campsite"
+    },
+    {
+    "cost": "10.00",
+    "description": "Nightly camping fee for one site for a camper with a Senior or Access pass. Black Rock Horse Camp is open all year and has 20 sites. Reservations are required. For reservations, call 1-877-444-6777.",
+    "title": "Senior/Access Pass Black Rock Horse Campsite"
+    }
+    ],
+    "directionsOverview": "Black Rock is just south of Yucca Valley. From Yucca Valley, turn south onto Palomar Ave. Palomar turns left onto Joshua Lane. Turn left onto San Marino Dr and continue onto Black Rock Canyon Road. Follow park signs.",
+    "directionsUrl": "http://www.nps.gov/jotr/planyourvisit/directions.htm",
+    "operatingHours": [
+    {
+    "exceptions": [
+    {
+    "exceptionHours": {
+    "wednesday": "All Day",
+    "monday": "All Day",
+    "thursday": "All Day",
+    "sunday": "All Day",
+    "tuesday": "All Day",
+    "friday": "All Day",
+    "saturday": "All Day"
+    },
+    "startDate": "2023-06-01",
+    "name": "Partial Summer Closure",
+    "endDate": "2023-09-04"
+    }
+    ],
+    "description": "Campgrounds are open 24 hours a day. Check in and check out are at noon.\nQuiet hours are from 10:00 pm to 6:00 am.\nSome campsites at Black Rock close for the summer.",
+    "standardHours": {
+    "wednesday": "All Day",
+    "monday": "All Day",
+    "thursday": "All Day",
+    "sunday": "All Day",
+    "tuesday": "All Day",
+    "friday": "All Day",
+    "saturday": "All Day"
+    },
+    "name": "Black Rock Campground"
+    }
+    ],
+    "addresses": [],
+    "images": [
+    {
+    "credit": "NPS/Hannah Schwalbe",
+    "crops": [],
+    "title": "Black Rock Campground Entrance",
+    "altText": "A road leads past a sign that says \"Black Rock Canyon Campground\"",
+    "caption": "Black Rock is one of the largest campgrounds in the park and is surrounded by a large concentration of Joshua Trees.",
+    "url": "https://www.nps.gov/common/uploads/structured_data/3C86D6B8-1DD8-B71B-0B50B4909A908379.jpg"
+    },
+    {
+    "credit": "NPS/Hannah Schwalbe",
+    "crops": [],
+    "title": "Black Rock Campground and Visitor Center Parking Lot",
+    "altText": "A small parking lot with cars and a building.",
+    "caption": "The campground has a small nature center open October through May. Campers register and pay camping fees at the nature center located in the middle of the campground. The staff at this small visitor center will help you plan a hike or other activity.",
+    "url": "https://www.nps.gov/common/uploads/structured_data/3C86D89D-1DD8-B71B-0BB50ADB998D5A49.jpg"
+    },
+    {
+    "credit": "NPS/Hannah Schwalbe",
+    "crops": [],
+    "title": "Black Rock Campsite",
+    "altText": "A tent is next to a Joshua Tree in a campsite.",
+    "caption": "Currently 99 sites are available at Black Rock Campground.",
+    "url": "https://www.nps.gov/common/uploads/structured_data/3C86DAB7-1DD8-B71B-0B115608B1655024.jpg"
+    },
+    {
+    "credit": "NPS/Hannah Schwalbe",
+    "crops": [],
+    "title": "Black Rock Campground Bathrooms",
+    "altText": "A building is surrounded by Joshua trees.",
+    "caption": "The Black Rock Campgrounds is one of the few that has running water and flush toilets.",
+    "url": "https://www.nps.gov/common/uploads/structured_data/3C86DC18-1DD8-B71B-0B7C4686C7B9577E.jpg"
+    },
+    {
+    "credit": "NPS/Hannah Schwalbe",
+    "crops": [],
+    "title": "Campsite on the east side of the Black Rock Campground.",
+    "altText": "A Joshua Tree, tent and two chairs are around a fire pit.",
+    "caption": "There are 99 campsites at Black Rock.",
+    "url": "https://www.nps.gov/common/uploads/structured_data/3C86DD79-1DD8-B71B-0BBA98B667ABE46F.jpg"
+    }
+    ],
+    "weatherOverview": "Days are typically clear with less than 25% humidity. Temperatures are most comfortable in the spring and fall, with an average high/low of 85 and 50°F (29 and 10°C) respectively. Winter brings cooler days, around 60°F (15°C), and freezing nights. It occasionally snows at higher elevations. Summers are hot, over 100°F (38°C) during the day and may cool to around 75°F (24°C) at night. Weather can change quickly. Check a weather forecast before camping.",
+    "numberOfSitesReservable": "99",
+    "numberOfSitesFirstComeFirstServe": "0",
+    "campsites": {
+    "totalSites": "99",
+    "group": "0",
+    "horse": "20",
+    "tentOnly": "0",
+    "electricalHookups": "0",
+    "rvOnly": "0",
+    "walkBoatTo": "0",
+    "other": "0"
+    },
+    "accessibility": {
+    "wheelchairAccess": "Most campsites have uneven terrain. Many roads are unpaved. The paved roads are crumbling and uneven. The Black Rock Nature Center has ADA access and the parking lot is well paved and flat. There is a wheelchair accessible restroom.",
+    "internetInfo": "",
+    "cellPhoneInfo": "Service is spotty and not guaranteed.",
+    "fireStovePolicy": "Because of the park's very dry climate, fire danger in Joshua Tree is almost always very high. Be cautious. Campfires are allowed only in designated fire rings or grills that are found in park campgrounds or picnic areas. Keep fires small. Bring your own firewood. You may not gather park vegetation, whether living or dead, to fuel your campfire. If you plan to have a campfire, bring extra water to douse it thoroughly.",
+    "rvAllowed": "1",
+    "rvInfo": "There are no hookups for RVs at any campground in Joshua Tree. Black Rock and Cottonwood Campgrounds have RV-accessible potable water and dump stations. Generator use is permitted only from 7-9 am, noon-2 pm, and 5-7 pm. RVs and trailers are allowed in sites if space permits.",
+    "rvMaxLength": "35",
+    "additionalInfo": "Amphitheater is not used frequently.",
+    "trailerMaxLength": "0",
+    "adaInfo": "Black Rock campsite 61 is ADA-compliant and can accommodate an RV up to 30 feet in length. Trailers and tow vehicle are allowed up to 30 feet combined length at this site. This is a back-in site. Other campgrounds with ADA compliant campsites include Jumbo Rocks (site 122) and Indian Cove (site 1).",
+    "trailerAllowed": "0",
+    "accessRoads": [
+    "Paved Roads - All vehicles OK"
+    ],
+    "classifications": [
+    "Developed Campground"
+    ]
+    },
+    "multimedia": [],
+    "lastIndexedDate": ""
+  },
+  {
+    "id": "78C8F7E4-CDD1-475C-A540-5EA8E22B1CAC",
+    "url": "https://www.nps.gov/biso/planyourvisit/blueheroncampground.htm",
+    "name": "Blue Heron Campground",
+    "parkCode": "biso",
+    "description": "Blue Heron Campground is located in the Kentucky portion of Big South Fork, 9 miles west of Stearns off Highway 742. The campground offers a total of 45 sites all with water and electric hook-ups, picnic tables, fire-rings, access to restrooms and showers and a dump station.",
+    "latitude": "36.6775354458249",
+    "longitude": "-84.5185055731685",
+    "latLong": "{lat:36.6775354458249, lng:-84.5185055731685}",
+    "audioDescription": "The campground sits at the end of a road with two loops that pass by a building known as the campground kiosk. This is where campers check-in and/or get information about the park. All sites have a paved parking pad along with a gravel tent pad. Each site has a picnic table, lantern hook and fire ring with grill. Most sites will also have a food storage locker on site or one nearby. Hook up sites have an electrical pedestal that stands near the water hydrant as well. There is one accessible bathhouse located next to the campground kiosk in the middle of the campground. Access to the bathhouse porch is flat without steps and there is a sink for dish washing. There is bathroom access from the center of the porch to a men's side on the far right, women's side slightly to the left and an accessible restroom directly to the left. Inside the main bathrooms are stalls with wooden doors. A long counter with three sinks stands between two showers on the opposite side of the toilet stalls.",
+    "isPassportStampLocation": "0",
+    "passportStampLocationDescription": "",
+    "passportStampImages": [],
+    "geometryPoiId": "FACB6B92-DEBA-4056-A455-DE550E0ED2C6",
+    "reservationInfo": "Campground reservations for sites within Big South Fork can now be made through National Recreation Reservation Service by calling 1-877-444-6777 or online at www.recreation.gov. Reservations may be made up to 240 days in advance.",
+    "reservationUrl": "https://www.recreation.gov/camping/campgrounds/232505?q=Blue%20Heron%20Campground",
+    "regulationsurl": "http://www.nps.gov/biso/planyourvisit/upload/Blue-Heron-Campground-Map-and-Regs-2014.pdf",
+    "regulationsOverview": "All food, food items (mustard, ketchup, etc), coolers (even if they are empty or have ice, water, pop, etc), must be kept in a vehicle or trailer with hard sides, except while preparing or eating it. Parking is allowed on the asphalt surface ONLY, not on the grass or gravel pads (gravel pads are for tents). Pets MUST be restrained on a leash AT ALL TIMES. QUIET HOURS ARE FROM 10:00 PM (ET) TO 6:00 AM (ET) Alcohol is prohibited in the Kentucky area of the Park. All grey water (dishes, shower, etc) must NEVER be dumped onto the ground. Bicycles may be ridden at night only if you have a light in the front and a red reflective marker on the back. Bicycles MUST stay on pavement or gravel while in the campground. Motorized vehicles not designated for on highway use (i.e. ATV’s, golf carts, etc) are prohibited on public roads including campground roads within the Big South Fork NRRA.",
+    "amenities": {
+    "trashRecyclingCollection": "Yes - seasonal",
+    "toilets": [
+    "Flush Toilets - seasonal"
+    ],
+    "internetConnectivity": "Yes - seasonal",
+    "showers": [
+    "Hot - Seasonal"
+    ],
+    "cellPhoneReception": "Yes - seasonal",
+    "laundry": "No",
+    "amphitheater": "Yes - seasonal",
+    "dumpStation": "Yes - seasonal",
+    "campStore": "No",
+    "staffOrVolunteerHostOnsite": "Yes - seasonal",
+    "potableWater": [
+    "Yes - seasonal"
+    ],
+    "iceAvailableForSale": "No",
+    "firewoodForSale": "No",
+    "foodStorageLockers": "Yes - seasonal"
+    },
+    "contacts": {
+    "phoneNumbers": [
+    {
+    "phoneNumber": "4232867275",
+    "description": "",
+    "extension": "",
+    "type": "Voice"
+    }
+    ],
+    "emailAddresses": [
+    {
+    "description": "",
+    "emailAddress": "biso_information@nps.gov"
+    }
+    ]
+    },
+    "fees": [
+    {
+    "cost": "20.00",
+    "description": "This fee covers one night of camping for up to 6 persons.",
+    "title": "Camping Fee"
+    }
+    ],
+    "directionsOverview": "Exit I-75 onto HWY 92 at Williamsburg (Exit 11). (This road has been recently upgraded and provides a direct access to Stearns and Blue Heron) Turn right on 92 for approximately 20 miles. Continue at the 4-way stop light straight across 27 to HWY 1651. Watch for signs to Blue Heron. Turn left on Mine 18 Road (HWY 742). Mine 18 Road ends at Blue Heron Interpretive Center. The Blue Heron Campground will be on the right before you reach the end of the road.",
+    "directionsUrl": "http://www.nps.gov/biso/planyourvisit/directions.htm",
+    "operatingHours": [
+    {
+    "exceptions": [],
+    "description": "Blue Heron Campground is open and on the reservation system from April through November. Campsites that are not reserved are on a first-come/first-served basis throughout the season.",
+    "standardHours": {
+    "wednesday": "All Day",
+    "monday": "All Day",
+    "thursday": "All Day",
+    "sunday": "All Day",
+    "tuesday": "All Day",
+    "friday": "All Day",
+    "saturday": "All Day"
+    },
+    "name": "Blue Heron Campground"
+    }
+    ],
+    "addresses": [
+    {
+    "postalCode": "42649",
+    "city": "Strunk",
+    "stateCode": "KY",
+    "countryCode": "US",
+    "provinceTerritoryCode": "",
+    "line1": "5238 Mine 18 Road",
+    "type": "Physical",
+    "line3": "",
+    "line2": ""
+    },
+    {
+    "postalCode": "37841",
+    "city": "Oneida",
+    "stateCode": "TN",
+    "countryCode": "US",
+    "provinceTerritoryCode": "",
+    "line1": "4564 Leatherwood Road",
+    "type": "Mailing",
+    "line3": "",
+    "line2": ""
+    }
+    ],
+    "images": [
+    {
+    "credit": "NPS",
+    "crops": [],
+    "title": "RV camper on site at Blue Heron",
+    "altText": "Red truck with RV camper on campsite",
+    "caption": "Campers enjoy the serenity of the campground.",
+    "url": "https://www.nps.gov/common/uploads/structured_data/3C81F30C-1DD8-B71B-0B19F5A311BD0896.jpg"
+    }
+    ],
+    "weatherOverview": "The weather along the Cumberland Plateau can be best described as unpredictable. Each season brings its own weather patterns. Summers are generally hot and humid, with high temperatures sometimes eclipsing 90 degrees. The low temperatures in winter often dip below freezing. Spring sees the most amount of precipitation, but rainfall can occur in various amounts throughout the year.",
+    "numberOfSitesReservable": "43",
+    "numberOfSitesFirstComeFirstServe": "45",
+    "campsites": {
+    "totalSites": "45",
+    "group": "0",
+    "horse": "0",
+    "tentOnly": "45",
+    "electricalHookups": "45",
+    "rvOnly": "45",
+    "walkBoatTo": "0",
+    "other": "0"
+    },
+    "accessibility": {
+    "wheelchairAccess": "Wheelchair access is available from the campsite #29 to the bathhouse. The campground is paved with the exception of the tent pads which are gravel.",
+    "internetInfo": "Free WiFi is available at the campground kiosk.",
+    "cellPhoneInfo": "",
+    "fireStovePolicy": "Firewood must be purchased and/or collected from the local vicinity; to learn more visit http://dontmovefirewood.org/.",
+    "rvAllowed": "1",
+    "rvInfo": "All sites have 20 and 30 amp service with water. There are no sewer hookups on each site.",
+    "rvMaxLength": "50",
+    "additionalInfo": "The Blue Heron Mining Community is located just a few miles from the campground and is open year-round for visitors who wish to learn about life in a company owned coal mining town. The Stearns Depot Visitor Center is located 9 miles away in the Big South Fork Scenic Railway Depot in Stearns, Kentucky. The visitor center is open daily from April through mid-to-late December each year.",
+    "trailerMaxLength": "0",
+    "adaInfo": "Campground has one accessible site (#29) which is near the bathhouse. The bathhouse has an accessible restroom with a hot water shower and toilet.",
+    "trailerAllowed": "1",
+    "accessRoads": [
+    "Paved Roads - All vehicles OK"
+    ],
+    "classifications": [
+    "Developed Campground"
+    ]
+    },
+    "multimedia": [],
+    "lastIndexedDate": ""
+  },
+  {
+    "id": "D0B26144-86D6-4F31-9296-4455BA0A3DDB",
+    "url": "https://www.recreation.gov/camping/campgrounds/10075120",
+    "name": "Boulder Beach Campground (Lake Mead)",
+    "parkCode": "lake",
+    "description": "The Boulder Beach Campground is located just minutes from Las Vegas along the Boulder Basin of Lake Mead. It’s open year-round and features large paved sites that can accommodate tents or large RVs, along with tables, fire pits and/or grills. These sites are like an oasis, because of the lush vegetation that shades nearly every campsite. There is a mix of palm trees, oleanders, mature cottonwood trees and native vegetation that also helps provide privacy between sites.",
+    "latitude": "36.036950329698435",
+    "longitude": "-114.80191660139093",
+    "latLong": "{lat:36.036950329698435, lng:-114.80191660139093}",
+    "audioDescription": "",
+    "isPassportStampLocation": "0",
+    "passportStampLocationDescription": "No Passport Stamp at this location. Please visit the visitor center.",
+    "passportStampImages": [],
+    "geometryPoiId": "AC4E7A09-B6C6-49B4-B66D-F75C62664E1A",
+    "reservationInfo": "Boulder Beach Campground Sites 1 – 9 are first come, first serve cash payments. All others will require a reservation through the recreation.gov website or can be made by phone at 1-877-444-6777, TDD 1-877-833-6777. For more information about the park, please call (702) 293-8906, Monday through Friday, between 8 a.m. and 4 p.m. Get a 50% discount with a Senior/Access Pass.",
+    "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10075120",
+    "regulationsurl": "https://www.nps.gov/lake/planyourvisit/campgrounds.htm",
+    "regulationsOverview": "For the latest rules and regulations visit the park website.",
+    "amenities": {
+    "trashRecyclingCollection": "Yes - year round",
+    "toilets": [
+    "Flush Toilets - year round"
+    ],
+    "internetConnectivity": "Yes - year round",
+    "showers": [
+    "None"
+    ],
+    "cellPhoneReception": "Yes - year round",
+    "laundry": "No",
+    "amphitheater": "Yes - year round",
+    "dumpStation": "Yes - year round",
+    "campStore": "No",
+    "staffOrVolunteerHostOnsite": "Yes - seasonal",
+    "potableWater": [
+    "Yes - year round"
+    ],
+    "iceAvailableForSale": "No",
+    "firewoodForSale": "No",
+    "foodStorageLockers": "No"
+    },
+    "contacts": {
+    "phoneNumbers": [
+    {
+    "phoneNumber": "702-293-8906",
+    "description": "",
+    "extension": "",
+    "type": "Voice"
+    }
+    ],
+    "emailAddresses": [
+    {
+    "description": "",
+    "emailAddress": "lake_information@nps.gov"
+    }
+    ]
+    },
+    "fees": [
+    {
+    "cost": "20.00",
+    "description": "NPS-managed campground fees are $20 per site ($10 with the Interagency Senior and Access passes) and are payable immediately upon occupying a campsite. Fees are posted at the entrance to the campground. Sites are available on a first-come, first-served basis. There are no reservations. Check-out time is noon.\n\nFor more information about camping, please visit our Camping Page.",
+    "title": "Campsite Fees"
+    }
+    ],
+    "directionsOverview": "Located just minutes from Las Vegas along Lakeshore Road within the park between the cities of Henderson and Boulder City, NV. Take US Hwy 93 into the Boulder Entrance of the park. Follow Lakeshore Road two miles and take your second right. The campground is on the left.",
+    "directionsUrl": "",
+    "operatingHours": [
+    {
+    "exceptions": [],
+    "description": "Standard hours. Quiet hours are 10:00 p.m. to 6:00 a.m.",
+    "standardHours": {
+    "wednesday": "All Day",
+    "monday": "All Day",
+    "thursday": "All Day",
+    "sunday": "All Day",
+    "tuesday": "All Day",
+    "friday": "All Day",
+    "saturday": "All Day"
+    },
+    "name": "Boulder Beach Campground"
+    }
+    ],
+    "addresses": [
+    {
+    "postalCode": "89005",
+    "city": "Boulder City",
+    "stateCode": "NV",
+    "countryCode": "US",
+    "provinceTerritoryCode": "",
+    "line1": "601 Nevada Way",
+    "type": "Physical",
+    "line3": "",
+    "line2": ""
+    },
+    {
+    "postalCode": "89005",
+    "city": "Boulder City",
+    "stateCode": "NV",
+    "countryCode": "US",
+    "provinceTerritoryCode": "",
+    "line1": "601 Nevada Way",
+    "type": "Mailing",
+    "line3": "",
+    "line2": ""
+    }
+    ],
+    "images": [
+    {
+    "credit": "Andrew Cattoir",
+    "crops": [],
+    "title": "Boulder Beach Campgrounds",
+    "altText": "Desert landscape with campsites and two rv's.",
+    "caption": "Boulder Beach Campground",
+    "url": "https://www.nps.gov/common/uploads/structured_data/8A992354-DAAF-FBC4-1E86EB39BBB8DB5A.jpg"
+    },
+    {
+    "credit": "Jason Lawor",
+    "crops": [],
+    "title": "Boulder Beach Campgrounds",
+    "altText": "Campsite with desert trees and a lake in the background.",
+    "caption": "Boulder",
+    "url": "https://www.nps.gov/common/uploads/structured_data/7E3A7353-AFC3-DA91-70C195CFD2D01E53.jpg"
+    }
+    ],
+    "weatherOverview": "Spring (April, May and June): Daytime highs 80 °F to 98 °F. Nighttime lows 50 °F to 66 °F Summer* (July, August and September): Daytime highs 89 °F to 103 °F (It can get up to 117 °F.) Fall (October, November and December): Daytime highs 59 °F to 83 °F. Nighttime lows 32 °F to 50 °F. Winter (January, February and March) Daytime highs 57 °F to 69 °F. Nighttime lows 30 °F to 40 °F. *Summer can be a dangerous time due to excessive heat. Some trails are closed for public safety.",
+    "numberOfSitesReservable": "126",
+    "numberOfSitesFirstComeFirstServe": "9",
+    "campsites": {
+    "totalSites": "135",
+    "group": "0",
+    "horse": "0",
+    "tentOnly": "135",
+    "electricalHookups": "0",
+    "rvOnly": "0",
+    "walkBoatTo": "0",
+    "other": "0"
+    },
+    "accessibility": {
+    "wheelchairAccess": "Amphitheatre, restrooms, and 13 designated sites are wheelchair accessible.",
+    "internetInfo": "",
+    "cellPhoneInfo": "",
+    "fireStovePolicy": "Fires are permitted in grills, fire rings, portable stoves, portable barbecues and portable fireplaces in all campgrounds and picnic areas. Please check the park website for seasonal fire restrictions.",
+    "rvAllowed": "1",
+    "rvInfo": "Campground roads are paved, some with a slight grade. Pads are paved, surrounded by natural desert landscape.",
+    "rvMaxLength": "0",
+    "additionalInfo": "",
+    "trailerMaxLength": "0",
+    "adaInfo": "Paved roadways and surfaces, restrooms, accessible picnic tables and accessible fire rings. Accessible sites are: 15, 34, 37, 47, 50, 67, 70, 71, 106, 109, 117, 125, 126.",
+    "trailerAllowed": "0",
+    "accessRoads": [
+    "Paved Roads - All vehicles OK"
+    ],
+    "classifications": [
+    "Developed Campground"
+    ]
+    },
+    "multimedia": [],
+    "lastIndexedDate": ""
+  },
+  {
+    "id": "726B4856-7914-4952-BF9F-C3D48D0E5712",
+    "url": "https://www.recreation.gov/camping/campgrounds/10048964",
+    "name": "Boulder Beach Group Campground (Lake Mead)",
+    "parkCode": "lake",
+    "description": "When you stay at the Boulder Beach Group Campground, you’ll have access to many recreation opportunities. Boulder Beach, Special Events Beach, Canoe/Kayak Beach and PWC Beach are 1-2 miles away. At these locations you can swim, kayak and jetski. If you prefer to explore the park on land, the River Mountains Loop Trail passes right by the campground. This paved trail is more than 30 miles long and leads to the Historic Railroad Trail.",
+    "latitude": "36.03752520072463",
+    "longitude": "-114.8025731005672",
+    "latLong": "{lat:36.03752520072463, lng:-114.8025731005672}",
+    "audioDescription": "",
+    "isPassportStampLocation": "0",
+    "passportStampLocationDescription": "Please visit the visitor center a passport stamp.",
+    "passportStampImages": [],
+    "geometryPoiId": "2ABCDD92-5FBB-462D-99CC-72D167257BB6",
+    "reservationInfo": "The group sites are reservation only. Reservations can be made by visiting www.rec.gov. Please check site for availability.",
+    "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10048964?tab=info",
+    "regulationsurl": "",
+    "regulationsOverview": "",
+    "amenities": {
+    "trashRecyclingCollection": "Yes - year round",
+    "toilets": [
+    "Flush Toilets - year round"
+    ],
+    "internetConnectivity": "Yes - year round",
+    "showers": [
+    "None"
+    ],
+    "cellPhoneReception": "Yes - year round",
+    "laundry": "No",
+    "amphitheater": "Yes - year round",
+    "dumpStation": "Yes - year round",
+    "campStore": "No",
+    "staffOrVolunteerHostOnsite": "Yes - seasonal",
+    "potableWater": [
+    "Yes - year round"
+    ],
+    "iceAvailableForSale": "No",
+    "firewoodForSale": "No",
+    "foodStorageLockers": "No"
+    },
+    "contacts": {
+    "phoneNumbers": [
+    {
+    "phoneNumber": "702-293-8906",
+    "description": "",
+    "extension": "",
+    "type": "Voice"
+    }
+    ],
+    "emailAddresses": [
+    {
+    "description": "",
+    "emailAddress": "lake_information@nps.gov"
+    }
+    ]
+    },
+    "fees": [
+    {
+    "cost": "80.00",
+    "description": "Group campsites fees are $80 per night (15 person minimum - 30 person maximum per site) are located at the Boulder Campground. Camping fees are posted at the campground kiosk. Reservations are required and can be requested online only at rec.gov.",
+    "title": "Group sites"
+    }
+    ],
+    "directionsOverview": "Located just minutes from Las Vegas along Lakeshore Road within the park between the cities of Henderson and Boulder City, NV. Take US Hwy 93 into the Boulder Entrance of the park. Follow Lakeshore Road 2 miles and take your second right. The group campground is on the right.",
+    "directionsUrl": "",
+    "operatingHours": [
+    {
+    "exceptions": [],
+    "description": "Standard hours. Quiet hours are 10:00 p.m. to 6:00 a.m.",
+    "standardHours": {
+    "wednesday": "All Day",
+    "monday": "All Day",
+    "thursday": "All Day",
+    "sunday": "All Day",
+    "tuesday": "All Day",
+    "friday": "All Day",
+    "saturday": "All Day"
+    },
+    "name": "Boulder Beach Group Campground"
+    }
+    ],
+    "addresses": [
+    {
+    "postalCode": "89005",
+    "city": "Boulder City",
+    "stateCode": "NV",
+    "countryCode": "US",
+    "provinceTerritoryCode": "",
+    "line1": "601 Nevada Way",
+    "type": "Physical",
+    "line3": "",
+    "line2": ""
+    },
+    {
+    "postalCode": "89005",
+    "city": "Boulder City",
+    "stateCode": "NV",
+    "countryCode": "US",
+    "provinceTerritoryCode": "",
+    "line1": "601 Nevada Way",
+    "type": "Mailing",
+    "line3": "",
+    "line2": ""
+    }
+    ],
+    "images": [
+    {
+    "credit": "Jason Lawor",
+    "crops": [],
+    "title": "Boulder Beach Group Campground",
+    "altText": "Shady campsite in the desert.",
+    "caption": "Boulder Beach Group Campground",
+    "url": "https://www.nps.gov/common/uploads/structured_data/7EE962D1-B6FC-5766-73DEA422192281EC.jpg"
+    }
+    ],
+    "weatherOverview": "Spring (April, May and June): Daytime highs 80 °F to 98 °F. Nighttime lows 50 °F to 66 °F Summer* (July, August and September): Daytime highs 89 °F to 103 °F (It can get up to 117 °F.) Fall (October, November and December): Daytime highs 59 °F to 83 °F. Nighttime lows 32 °F to 50 °F. Winter (January, February and March) Daytime highs 57 °F to 69 °F. Nighttime lows 30 °F to 40 °F. *Summer can be a dangerous time due to excessive heat. Some trails are closed for public safety.",
+    "numberOfSitesReservable": "5",
+    "numberOfSitesFirstComeFirstServe": "0",
+    "campsites": {
+    "totalSites": "5",
+    "group": "5",
+    "horse": "0",
+    "tentOnly": "5",
+    "electricalHookups": "0",
+    "rvOnly": "0",
+    "walkBoatTo": "0",
+    "other": "0"
+    },
+    "accessibility": {
+    "wheelchairAccess": "Group sites are not paved and would prove difficult for wheelchair access.",
+    "internetInfo": "",
+    "cellPhoneInfo": "",
+    "fireStovePolicy": "Fires are permitted in grills, fire rings, portable stoves, portable barbeques and portable fireplaces in all campgrounds and picnic areas. Please check the park website for seasonal fire restrictions.",
+    "rvAllowed": "0",
+    "rvInfo": "RV's and trailers are not permitted in group sites.",
+    "rvMaxLength": "0",
+    "additionalInfo": "",
+    "trailerMaxLength": "0",
+    "adaInfo": "Group sites are not paved and would prove difficult for handicap access. Restrooms are located closest to site 5 and are accessible. Picnic tables are handicap accessible.",
+    "trailerAllowed": "0",
+    "accessRoads": [
+    "Paved Roads - All vehicles OK"
+    ],
+    "classifications": [
+    "Developed Campground"
+    ]
+    },
+    "multimedia": [],
+    "lastIndexedDate": ""
+  }
+]
+}
