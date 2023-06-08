@@ -26,6 +26,7 @@
 .campsite-name{
   padding: 3%;
   margin: 0;
+  font-size: large;
 }
 
 .rv-info {
@@ -42,10 +43,4 @@
   border: 1.5px solid rgb(255, 255, 255);
   border-radius: 5px;
   background-color:#446148;
-}
-
-@media screen and (max-width: 34.375em) {
-  .campsite-name {
-    font-size: large;
-  }
 }
