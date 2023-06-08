@@ -43,3 +43,9 @@
   border-radius: 5px;
   background-color:#446148;
 }
+
+@media screen and (max-width: 34.375em) {
+  .campsite-name {
+    font-size: large;
+  }
+}
