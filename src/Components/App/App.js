@@ -1,11 +1,11 @@
 import { React, useState, useEffect } from 'react';
-import PropTypes from 'prop-types';
 import './App.css';
 import { Route, Link, Switch } from 'react-router-dom';
 import Header from '../Header/Header';
 import Campsites from '../Campsites/Campsites';
 import CampsiteDetails from '../CampsiteDetails/CampsiteDetails';
 import { getCampsites } from '../../ApiCalls';
+import filterCampsitesByInternetConnectivity from '../../utils';
 
 function App() {
   const [campsites, setCampsites] = useState([])
@@ -17,11 +17,7 @@ function App() {
     const fetchData = async () => {
       try {
         const data = await getCampsites();
-        const filteredData = data.data.filter(campsite => {
-          if(campsite.amenities) {
-            return  campsite.amenities.internetConnectivity.includes("Yes")
-          }
-        })
+        const filteredData = filterCampsitesByInternetConnectivity(data.data);
         setCampsites(filteredData);
         setLoading(false)
       } catch (error) {
