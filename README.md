@@ -11,14 +11,14 @@ With Work on Wheels, users can browse a list of campsites that have access to th
 ## Set Up 
 
 ### Installing the files
- - Fork this [repository](https://github.com/sarahcatherine311/WFC-work-from-camper) to your GitHub account. 
+ - Fork this [repository](https://github.com/sarahcatherine311/Work-on-Wheels) to your GitHub account. 
  - In your forked respository, click the `code` drop-down menu and copy the SSH key.
  - On your local machine, open the terminal and navigate to the location you'd like the repository directory cloned to. 
  - Once you're there, run `git clone [SSH Key] [WFC-work-from-camper]` via the command line.
  - Run `npm install`. 
 
 ### Opening the application
- - When you're ready to use the app, open the terminal and navigate to the WFC-work-from-camper directory via the terminal.
+ - When you're ready to use the app, open the terminal and navigate to the Work-on-Wheels directory via the terminal.
  - In the terminal, use command+t to open a new terminal tab. 
  - In the new terminal tab, run `npm start`.
  - Once WebPack has compiled the necessary resources, you will see a link within the text of your terminal. You can copy and paste that link into your browser to access a locally-hosted version of this application on your machine. 
