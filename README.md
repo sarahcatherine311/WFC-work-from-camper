@@ -14,7 +14,7 @@ With Work on Wheels, users can browse a list of campsites that have access to th
  - Fork this [repository](https://github.com/sarahcatherine311/Work-on-Wheels) to your GitHub account. 
  - In your forked respository, click the `code` drop-down menu and copy the SSH key.
  - On your local machine, open the terminal and navigate to the location you'd like the repository directory cloned to. 
- - Once you're there, run `git clone [SSH Key] [WFC-work-from-camper]` via the command line.
+ - Once you're there, run `git clone [SSH Key] [Work-on-Wheels]` via the command line.
  - Run `npm install`. 
 
 ### Opening the application
