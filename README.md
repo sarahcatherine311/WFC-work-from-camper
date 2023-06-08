@@ -6,8 +6,6 @@ Welcome to Work on Wheels, a web application designed to help those who work rem
 
 With Work on Wheels, users can browse a list of campsites that have access to the internet. Users are also able to favorite campsites that they have or want to visit and view all their selected favorites on a seperate page. They can click on any campsite card to view more detailed information about the campsite.
 
----
-
 ## Set Up 
 
 ### Installing the files
@@ -30,12 +28,8 @@ With Work on Wheels, users can browse a list of campsites that have access to th
 ## Contributors
 - Sarah Moore [GitHub](https://github.com/sarahcatherine311) | [LinkedIn](https://www.linkedin.com/in/sarah-moore-a35196127/) <br>
 
----
-
 ## Context
 This project was assigned in the fifth week of Module 3 at [Turing School of Software and Design Front End Web Development program](https://frontend.turing.edu/), a four- module, seven-month course focused on preparing students for a career as web developers working with Javascript, HTML, CSS, and the React framework. The application was built over the course of 3 days.
-
----
 
 ## Technologies/ Metholodologies
 - React & React Router
