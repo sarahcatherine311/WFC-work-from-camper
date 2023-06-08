@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import './PhotoGallery.css'
+import PropTypes from 'prop-types';
+import './PhotoGallery.css';
 const PhotoGallery = ({ photos }) => {
   const [photoIndex, setPhotoIndex] = useState(0);
 
@@ -25,3 +26,12 @@ const PhotoGallery = ({ photos }) => {
 };
 
 export default PhotoGallery;
+
+PhotoGallery.propTypes = {
+  photos: PropTypes.arrayOf(
+    PropTypes.shape({
+      url: PropTypes.string.isRequired,
+      altText: PropTypes.string.isRequired,
+    })
+  ).isRequired,
+};

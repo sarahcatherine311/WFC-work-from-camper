@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './Campsites.css';
 import { Link } from 'react-router-dom';
 import CampsiteCard from '../CampsiteCard/CampsiteCard';
@@ -16,3 +17,8 @@ function Campsites({ campsites, favoriteCampsite }) {
 };
 
 export default Campsites;
+
+Campsites.propTypes = {
+  campsites: PropTypes.array.isRequired,
+  favoriteCampsite: PropTypes.func.isRequired,
+};
