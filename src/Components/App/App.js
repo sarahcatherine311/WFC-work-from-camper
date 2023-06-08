@@ -26,7 +26,6 @@ function App() {
     };
 
     fetchData();
-    console.log(campsites)
   }, []);
 
   const favoriteCampsite = () => {

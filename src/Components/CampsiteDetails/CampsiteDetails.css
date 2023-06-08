@@ -75,3 +75,35 @@ button:hover {
     padding-right: 5%;
   }
 }
+
+@media screen and (max-width: 60em) {
+  .amenities {
+    max-height: 27em;
+  }
+}
+
+@media screen and (min-width: 83em) {
+  .main-section {
+    display: flex;
+  }
+  .rv-and-amenities {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0;
+    width: 30%;
+  }
+  .details-photo{
+    width: 100%;
+  }
+  .photos-section{
+    width: 65%;
+  }
+  .rv-info, .amenities-info {
+    width: 100%;
+    margin-bottom: 5%;
+  }
+  h2 {
+    font-size: large;
+  }
+}
