@@ -3,9 +3,12 @@ import './CampsiteCard.css';
 import PropTypes from 'prop-types';
 
 function CampsiteCard({ campsite, favoriteCampsite }) {
-  let imageSrc
+  let imageSrc;
+  let altText = "No photo available"
+
   if(!campsite.images[0]) {
     imageSrc = "https://upload.wikimedia.org/wikipedia/commons/6/65/No-Image-Placeholder.svg"
+    altText = campsite.images[0].altText
   } else {
     imageSrc = campsite.images[0].url
   }
@@ -22,11 +25,11 @@ function CampsiteCard({ campsite, favoriteCampsite }) {
 
   return (
     <div className="campsite-card">
-      <img className="campsite-img" src={imageSrc}/>
+      <img className="campsite-img" src={imageSrc} alt={altText}/>
       <button className="favorite-button" onClick={event => toggleFavorite(campsite, event)} >
         {campsite.favorited ? "❤️" : "🤍"}
       </button>
-      <h3 className="campsite-name">{campsite.name}</h3>
+      <h2 className="campsite-name">{campsite.name}</h2>
     </div>
   );
 }
