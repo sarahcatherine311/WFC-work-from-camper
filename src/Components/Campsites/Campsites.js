@@ -11,9 +11,9 @@ function Campsites({ campsites, favoriteCampsite }) {
         <Link key={campsite.id} to={`/campsite/${campsite.id}`} style={{ textDecoration: 'none' }} > 
           <CampsiteCard campsite={campsite} favoriteCampsite={favoriteCampsite}/>
         </Link>
-      ))};
+      ))}
     </div>
-  );;
+  );
 };
 
 export default Campsites;

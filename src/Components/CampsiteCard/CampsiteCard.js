@@ -45,3 +45,7 @@ CampsiteCard.propTypes = {
   }).isRequired,
   favoriteCampsite: PropTypes.func.isRequired,
 };
+
+CampsiteCard.defaultProps = {
+  favorited: false
+};
