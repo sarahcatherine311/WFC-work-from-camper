@@ -1,5 +1,6 @@
 import React from 'react';
 import './CampsiteCard.css';
+import PropTypes from 'prop-types';
 
 function CampsiteCard({ campsite, favoriteCampsite }) {
   let imageSrc
@@ -31,3 +32,20 @@ function CampsiteCard({ campsite, favoriteCampsite }) {
 }
 
 export default CampsiteCard;
+
+CampsiteCard.propTypes = {
+  campsite: PropTypes.shape({
+    images: PropTypes.arrayOf(
+      PropTypes.shape({
+        url: PropTypes.string.isRequired,
+      })
+    ).isRequired,
+    favorited: PropTypes.bool,
+    name: PropTypes.string.isRequired,
+  }).isRequired,
+  favoriteCampsite: PropTypes.func.isRequired,
+};
+
+CampsiteCard.defaultProps = {
+  favorited: false
+};

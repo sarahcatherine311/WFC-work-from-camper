@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './CampsiteDetails.css';
 import { useParams } from 'react-router-dom';
 import PhotoGallery from '../PhotoGallery/PhotoGallery';
@@ -52,3 +53,7 @@ function CampsiteDetails({ campsites }) {
 }
 
 export default CampsiteDetails;
+
+CampsiteDetails.propTypes = {
+  campsites: PropTypes.array.isRequired,
+};

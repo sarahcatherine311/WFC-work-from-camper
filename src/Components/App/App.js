@@ -1,4 +1,5 @@
 import { React, useState, useEffect } from 'react';
+import PropTypes from 'prop-types';
 import './App.css';
 import { Route, Link, Switch } from 'react-router-dom';
 import Header from '../Header/Header';
@@ -29,7 +30,6 @@ function App() {
     };
 
     fetchData();
-    console.log(campsites[0])
   }, []);
 
   const favoriteCampsite = () => {
