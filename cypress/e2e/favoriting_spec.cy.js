@@ -5,11 +5,11 @@ describe("Favoriting Feature", () => {
       fixture: "campsites.json",
     }).visit("http://localhost:3000");
   });
-  it.skip("should be able to favorite cards", () => {
+  it("should be able to favorite cards", () => {
     cy.get(".favorite-button").first().click()
     .get(".favorite-button").last().click()
   });
-  it.skip("should be able to view favorite cards", () => {
+  it("should be able to view favorite cards", () => {
     cy.get(".favorite-button").first().click()
     .get(".favorite-button").last().click()
     .get(".see-favorites-button").click()
