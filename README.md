@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Work on Wheels 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About
 
-## Available Scripts
+Welcome to Work on Wheels, a web application designed to help those who work remotely to find campsites that have internet access so they can work on the road while they travel!
 
-In the project directory, you can run:
+With Work on Wheels, users can browse a list of campsites that have access to the internet. Users are also able to favorite campsites that they have or want to visit and view all their selected favorites on a seperate page. They can click on any campsite card to view more detailed information about the campsite.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Set Up 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Installing the files
+ - Fork this [repository](https://github.com/sarahcatherine311/WFC-work-from-camper) to your GitHub account. 
+ - In your forked respository, click the `code` drop-down menu and copy the SSH key.
+ - On your local machine, open the terminal and navigate to the location you'd like the repository directory cloned to. 
+ - Once you're there, run `git clone [SSH Key] [WFC-work-from-camper]` via the command line.
+ - Run `npm install`. 
 
-### `npm test`
+### Opening the application
+ - When you're ready to use the app, open the terminal and navigate to the WFC-work-from-camper directory via the terminal.
+ - In the terminal, use command+t to open a new terminal tab. 
+ - In the new terminal tab, run `npm start`.
+ - Once WebPack has compiled the necessary resources, you will see a link within the text of your terminal. You can copy and paste that link into your browser to access a locally-hosted version of this application on your machine. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Preview
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contributors
+- Sarah Moore [GitHub](https://github.com/sarahcatherine311) | [LinkedIn](https://www.linkedin.com/in/sarah-moore-a35196127/) <br>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## Context
+This project was assigned in the fifth week of Module 3 at [Turing School of Software and Design Front End Web Development program](https://frontend.turing.edu/), a four- module, seven-month course focused on preparing students for a career as web developers working with Javascript, HTML, CSS, and the React framework. The application was built over the course of 3 days.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Technologies/ Metholodologies
+- React & React Router
+- End to end testing using Cypress
+- Fetch API
+- Git/GitHub/ GitHub project board
+- Javascript/ CSS/ HTML
+- Error handling for network and user errors
+- Utilizing Agile/ Scrum project management
+- Responsive design
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Future Development Opportunities
+- User login feature, enabling saving favorites between visits.
+- Create a search functionality.
+- Filter campsites by state. 
+- Improve overall styling
