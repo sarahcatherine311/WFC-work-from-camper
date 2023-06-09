@@ -38,17 +38,37 @@ export default CampsiteCard;
 
 CampsiteCard.propTypes = {
   campsite: PropTypes.shape({
-    images: PropTypes.arrayOf(
-      PropTypes.shape({
-        url: PropTypes.string.isRequired,
-      })
-    ).isRequired,
+    id: PropTypes.string.isRequired,
+      name: PropTypes.string.isRequired,
+      description: PropTypes.string.isRequired,
+      images: PropTypes.arrayOf(
+        PropTypes.shape({
+          url: PropTypes.string.isRequired,
+          altText: PropTypes.string.isRequired,
+        })
+      ).isRequired,  
+      accessibility: PropTypes.shape({
+        rvAllowed: PropTypes.string.isRequired,
+        trailerAllowed: PropTypes.string.isRequired,
+        rvMaxLength: PropTypes.string.isRequired,
+        trailerMaxLength: PropTypes.string.isRequired,
+        rvInfo:PropTypes.string,
+      }).isRequired,
+      amenities: PropTypes.shape({
+        internetConnectivity: PropTypes.string.isRequired,
+        cellPhoneReception: PropTypes.string.isRequired,
+        potableWater: PropTypes.array.isRequired,
+        showers: PropTypes.array.isRequired,
+        laundry: PropTypes.string.isRequired,
+        toilets: PropTypes.array.isRequired,
+        dumpStation: PropTypes.string.isRequired,
+        campStore: PropTypes.string.isRequired,
+        firewoodForSale: PropTypes.string.isRequired,
+        iceAvailableForSale: PropTypes.string.isRequired,
+        foodStorageLockers: PropTypes.string.isRequired,
+        staffOrVolunteerHostOnsite: PropTypes.string.isRequired,
+      }).isRequired,
     favorited: PropTypes.bool,
     name: PropTypes.string.isRequired,
   }).isRequired,
-  favoriteCampsite: PropTypes.func.isRequired,
-};
-
-CampsiteCard.defaultProps = {
-  favorited: false
 };
