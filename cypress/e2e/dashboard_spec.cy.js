@@ -5,8 +5,10 @@ describe("Dashboard", () => {
       fixture: "campsites.json",
     }).visit("http://localhost:3000/");
   });
-  it("should have a header with a title", () => {
-    cy.get("header").should("is.visible").contains("Work From Camper");
+  it("should have a header with a logo and title", () => {
+    cy.get("header").should("is.visible")
+    .get(".logo").should("is.visible")
+    .get(".logo-title").should("is.visible")
   });
   it("should have a favorites button", () => {
     cy.get(".see-favorites-button").should("is.visible")

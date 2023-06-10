@@ -6,7 +6,9 @@ describe("Campsite Details", () => {
     }).visit("http://localhost:3000/campsite/33AA5642-343E-425B-89E9-69A0918A8502");
   });
   it("should have a header with a title", () => {
-    cy.get("header").should("is.visible").contains("Work From Camper");
+    cy.get("header").should("is.visible")
+    .get(".logo").should("is.visible")
+    .get(".logo-title").should("is.visible")
   });
   it("should have a campsite title", () => {
     cy.get(".campsite-title").should("is.visible").contains("Black Rock Campground");
