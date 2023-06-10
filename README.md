@@ -22,7 +22,7 @@ With Work on Wheels, users can browse a list of campsites that have access to th
  - Once WebPack has compiled the necessary resources, you will see a link within the text of your terminal. You can copy and paste that link into your browser to access a locally-hosted version of this application on your machine. 
 
 ## Preview
-
+![Demo](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjcwZjQ1YTI1OGM5N2M4ZmU3MDFmZTFiYTZjZTdlOTk4OTIwNmIxNCZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/div57xr0QUWtHUrLBa/giphy.gif)
 
 
 ## Contributors
