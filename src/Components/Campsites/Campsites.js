@@ -19,6 +19,34 @@ function Campsites({ campsites, favoriteCampsite }) {
 export default Campsites;
 
 Campsites.propTypes = {
-  campsites: PropTypes.array.isRequired,
+  campsites: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.string.isRequired,
+      name: PropTypes.string.isRequired,
+      description: PropTypes.string.isRequired,
+      images: PropTypes.array.isRequired,  
+      accessibility: PropTypes.shape({
+        rvAllowed: PropTypes.string.isRequired,
+        trailerAllowed: PropTypes.string.isRequired,
+        rvMaxLength: PropTypes.string.isRequired,
+        trailerMaxLength: PropTypes.string.isRequired,
+        rvInfo:PropTypes.string,
+      }).isRequired,
+      amenities: PropTypes.shape({
+        internetConnectivity: PropTypes.string.isRequired,
+        cellPhoneReception: PropTypes.string.isRequired,
+        potableWater: PropTypes.array.isRequired,
+        showers: PropTypes.array.isRequired,
+        laundry: PropTypes.string.isRequired,
+        toilets: PropTypes.array.isRequired,
+        dumpStation: PropTypes.string.isRequired,
+        campStore: PropTypes.string.isRequired,
+        firewoodForSale: PropTypes.string.isRequired,
+        iceAvailableForSale: PropTypes.string.isRequired,
+        foodStorageLockers: PropTypes.string.isRequired,
+        staffOrVolunteerHostOnsite: PropTypes.string.isRequired,
+      }).isRequired,
+    })
+  ).isRequired,
   favoriteCampsite: PropTypes.func.isRequired,
 };
