@@ -13,12 +13,14 @@ a {
 }
 
 .logo {
-  height: 10em;
+  height: 100%;
+  width: 14.6875em;
   padding-top: 0.5em;
 }
 
 .logo-title {
   height: 9em;
+  width: 100%;
 }
 
 .logo-title:hover {
@@ -41,8 +43,20 @@ a {
 }
 
 
-@media screen and (max-width: 34.375em) {
+@media screen and (max-width: 55em) {
   .header {
     height: 6em;
   }
+
+  .logo-title {
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 70em) {
+
+  .logo-title {
+    margin-left: 7vw;
+  }
+  
 }
