@@ -1,10 +1,10 @@
 .header {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: start;
   height: 9em;
-  background-color:#85C67E;
+  background-color:#398062;
   color: white;
+  align-items: center;
 }
 
 a {
@@ -12,8 +12,51 @@ a {
   text-decoration: none;
 }
 
-@media screen and (max-width: 34.375em) {
+.logo {
+  height: 100%;
+  width: 14.6875em;
+  padding-top: 0.5em;
+}
+
+.logo-title {
+  height: 9em;
+  width: 100%;
+}
+
+.logo-title:hover {
+  animation: wiggle 0.5s infinite;
+}
+
+@keyframes wiggle {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(2deg);
+  }
+  75% {
+    transform: rotate(-2deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+
+@media screen and (max-width: 55em) {
   .header {
     height: 6em;
   }
+
+  .logo-title {
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 70em) {
+
+  .logo-title {
+    margin-left: 7vw;
+  }
+  
 }

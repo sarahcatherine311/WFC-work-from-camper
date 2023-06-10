@@ -9,3 +9,17 @@
 html, body {
   height: 100vh;
 }
+
+.see-favorites-button, .see-all-button {
+  background-color: #398062;
+  color: whitesmoke;
+  font-size: medium ;
+  font-weight: bold;
+  border-radius: 3em;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.see-favorites-button:hover, .see-all-button:hover{
+  transform: scale(1.1);
+}
