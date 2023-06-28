@@ -4,7 +4,7 @@
 
 Welcome to Work on Wheels, a web application designed to help those who work remotely to find campsites that have internet access so they can work on the road while they travel!
 
-With Work on Wheels, users can browse a list of campsites that have access to the internet. Users are also able to favorite campsites that they have or want to visit and view all their selected favorites on a seperate page. They can click on any campsite card to view more detailed information about the campsite.
+With Work on Wheels, users can browse a list of campsites that have access to the internet. Users are also able to favorite campsites that they have or want to visit and view all their selected favorites on a separate page. They can click on any campsite card to view more detailed information about the campsite.
 ## Deployed App
 [Click here](https://work-on-wheels.vercel.app/)
 
